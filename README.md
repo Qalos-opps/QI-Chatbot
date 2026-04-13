@@ -25,17 +25,6 @@ When the application starts it will:
 
 
 
- How to Run
-
-1. Open Visual Studio and create a new **Console App (.NET Framework)** project
-2. Replace `Program.cs` with the file from this repo
-3. Add `greeting.wav` to the project folder and set **Copy to Output Directory** → **Copy Always**
-4. Press **F5** to run
-
-> **Note:** Audio playback uses `System.Media.SoundPlayer` which requires Windows. If the WAV file is missing the bot will show a text greeting and continue normally.
-
- 
-
   Project Structure
 
 All code is contained in a single `Program.cs` file, organised into 6 classes:
